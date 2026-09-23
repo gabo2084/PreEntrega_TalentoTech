@@ -102,7 +102,7 @@ while eleccion != '5':
 
             while nro_validacion != 3:
 
-                precio_producto = input('\nPrecio: ').strip()
+                precio_producto = input('\nPrecio: $ ').strip()
 
                 if precio_producto == '' or not precio_producto.isnumeric():
 
@@ -128,7 +128,40 @@ while eleccion != '5':
 
                         
         case '3':
-            print('\nBuscando productos')
+
+            validacion = False
+
+            producto_buscado = ''
+
+            while validacion == False:
+
+                print('\n====================================================================')
+                print('======================= Busqueda de Producto =======================')
+                print('====================================================================')
+
+                producto_buscado = input('\nIngrese el nombre del producto a buscar: ').strip().title()
+
+                if producto_buscado == '' or producto_buscado.isnumeric():
+
+                    print('\nError. Debe ingresar una palabra y que no sea solo numeros.')
+                    continue
+
+                validacion = True
+
+            for producto in productos:
+                if producto[0] == producto_buscado:
+                    producto_buscado = [producto[0], producto[1], producto[2]]
+                    break
+
+            if type(producto_buscado) is list:
+                print(f'\nProducto encontrado!')
+                print(f'\n- Nombre: {producto_buscado[0]}')
+                print(f'- Categoria: {producto_buscado[1]}')
+                print(f'- Precio: $ {producto_buscado[2]}')
+            else:
+                print('\nProducto no encontrado')
+
+            
         case '4':
             print('\nEliminando productos')
         case '5':
