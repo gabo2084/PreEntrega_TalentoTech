@@ -66,6 +66,7 @@ while eleccion != '5':
     eleccion = input('Ingrese una opcion del menu(1/2/3/4/5): ')
 
     match eleccion:
+
         case '1':
             print('\n====================================================================')
             print('========================== Nuevo Producto ==========================')
@@ -160,13 +161,59 @@ while eleccion != '5':
                 print(f'- Precio: $ {producto_buscado[2]}')
             else:
                 print('\nProducto no encontrado')
-
             
         case '4':
-            print('\nEliminando productos')
+
+            validacion = False
+
+            cantidad_productos = len(productos)
+
+            print(cantidad_productos)
+
+            producto_eliminar = ''
+
+            producto_eliminado = []
+
+            while validacion == False:
+            
+                print('\n====================================================================')
+                print('========================= Eliminar Producto ========================')
+                print('====================================================================')
+
+                producto_eliminar = input('\nIngrese la posicion del producto a eliminar: ').strip()
+
+                if producto_eliminar == '' or not producto_eliminar.isnumeric():
+
+                    print('\nError. Debe ingresar el numero de posicion del producto a eliminar.')
+                    continue
+
+                elif int(producto_eliminar) > cantidad_productos:
+
+                    print('\nLa posicion del producto ingresado esta fuera del rango')
+
+                    validacion = True
+
+                else:
+
+                    for producto in productos:
+                        if productos.index(producto) + 1 == int(producto_eliminar):
+                            producto_eliminado = productos.pop(int(producto_eliminar)-1)
+                            print(f'\nProducto eliminado!')
+                            print(f'\n- Nombre: {producto_eliminado[0]}')
+                            print(f'- Categoria: {producto_eliminado[1]}')
+                            print(f'- Precio: $ {producto_eliminado[2]}')
+                            break
+            
+                    producto_eliminado.clear()
+
+                    validacion = True
+                    
+
         case '5':
+
             print('\nsaliendo del sistema ...\n')
         case _:
+
             print('\nIngrese una opcion valida')
 
 
