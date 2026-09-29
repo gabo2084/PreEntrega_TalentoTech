@@ -125,7 +125,7 @@ while eleccion != '5':
         
             for producto in productos:
 
-                print(f'\n- Nombre: {producto[0]} | Categoria: {producto[1]} | Precio: $ {producto[2]}')
+                print(f'\n{productos.index(producto) + 1}. Nombre: {producto[0]} | Categoria: {producto[1]} | Precio: $ {producto[2]}')
 
                         
         case '3':
