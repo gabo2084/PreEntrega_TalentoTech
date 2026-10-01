@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-﻿
-=======
 ﻿
 using TicTacToe.Logic;
 
@@ -17,5 +14,3 @@ Console.WriteLine();
 
 GamePlay Game = new ();
 Game.PlayerRegister(name1, mark1, name2);
-
->>>>>>> Logic
