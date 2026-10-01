@@ -1,0 +1,15 @@
+/home/gabo2084/Developer/C#/TicTacToe/bin/Debug/net10.0/TicTacToe
+/home/gabo2084/Developer/C#/TicTacToe/bin/Debug/net10.0/TicTacToe.deps.json
+/home/gabo2084/Developer/C#/TicTacToe/bin/Debug/net10.0/TicTacToe.runtimeconfig.json
+/home/gabo2084/Developer/C#/TicTacToe/bin/Debug/net10.0/TicTacToe.dll
+/home/gabo2084/Developer/C#/TicTacToe/bin/Debug/net10.0/TicTacToe.pdb
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.AssemblyInfoInputs.cache
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.AssemblyInfo.cs
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.csproj.CoreCompileInputs.cache
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.sourcelink.json
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.dll
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/refint/TicTacToe.dll
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.pdb
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.genruntimeconfig.cache
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/ref/TicTacToe.dll
