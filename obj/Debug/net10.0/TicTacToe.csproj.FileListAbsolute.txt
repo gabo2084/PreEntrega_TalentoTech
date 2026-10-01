@@ -7,6 +7,10 @@
 /home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.AssemblyInfoInputs.cache
 /home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.AssemblyInfo.cs
 /home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
+=======
+/home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.sourcelink.json
+>>>>>>> Logic
 /home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.dll
 /home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/refint/TicTacToe.dll
 /home/gabo2084/Developer/C#/TicTacToe/obj/Debug/net10.0/TicTacToe.pdb
