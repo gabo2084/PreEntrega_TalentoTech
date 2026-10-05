@@ -10,8 +10,8 @@ namespace TicTacToe.Logic
         public string? Name { get; set; }
         public int? Victories { get; set; } = 0;
         public int? Defeats { get; set; } = 0;
-        public char? Symbol { get; set; }
-        public bool Shift { get; set; }
+
+        public char? Mark { get; set; }
 
         public Player()
         {
@@ -19,10 +19,11 @@ namespace TicTacToe.Logic
         }
 
 
-        public void Register(string name, char symbol)
+        public void Register(string name, char mark)
         {                       
             Name = name;
-            Symbol = symbol;
+            Mark = mark;
         }
+
     }
 }
